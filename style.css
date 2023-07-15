@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  min-height: 100vh;
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font: 100 1.2rem;
+  font-family: sans-serif;
+  margin: 5px;
+  border-radius: 3px;
+  outline: none;
+}
+
+button {
+  background-color: rgb(80, 79, 79);
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: rgba(165, 42, 42, 0.768);
+}
+
+.tasks > div {
+  width: 100%;
+}
+.tasks {
+  background-color: rgba(219, 214, 214, 0.592);
+  font: 100 1.2rem;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.tasks span {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.deleteBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: indianred;
+  border: none;
+}
+
+.deleteBtn:hover {
+  background-color: red;
+}
